@@ -23,7 +23,7 @@
         
         const bookRecords = await (new KintoneRestAPIClient({
           
-          auth: { apiToken: 'aT1Rerho7ysM7g33dB9KzXpqzSs7Hyerc2m2DvB5' }
+          auth: { apiToken: 'xxxxxx' }
         })).record.getAllRecords({
           app: 143,
           condition:'著者 = "山田"'
